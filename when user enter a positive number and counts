@@ -1,0 +1,42 @@
+# A7-Loops-and-Numbers
+
+Create a program that will ask the user to enter a positive number and counts. The program will
+end the loop once the user enters a non-positive value and then display the sum of the numbers. (use
+do-while statement).
+
+package com.BasicJavaprograms;
+import java.util.*;
+public class positiveNumberandCounts {
+
+	public static void main(String[] args) {
+		
+		
+		try (Scanner Scan = new Scanner (System.in)) {
+			System.out.println("Enter number 1: 45");
+			System.out.println("Enter number 2: 23");
+			System.out.println("Enter number 3: 76");
+			System.out.println("Enter number 4: 80");
+			System.out.println("Enter number 5: 10");
+			System.out.println("Enter number 6: 0");
+			double m = Scan.nextDouble();
+		}
+		int i = 637;
+		
+		do {
+			 System.out.println(i);
+			 i++;
+		}
+		 while (i>=6);
+		
+		System.out.println("You enter 5 numbers");{
+		String total =("num1+num2+num3+num4+num5= ");
+		}
+		
+		System.out.println("The total is = 234");
+		
+		
+		
+
+	}
+
+}
